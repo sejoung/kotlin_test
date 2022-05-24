@@ -5,6 +5,7 @@ charset = utf-8
 end_of_line = lf
 indent_size = 4
 indent_style = space
+# 파일 저장 시 new line 추가 강제
 insert_final_newline = true
 max_line_length = 120
 tab_width = 4

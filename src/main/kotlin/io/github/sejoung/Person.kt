@@ -11,7 +11,6 @@ data class Person(
     var lastName: String,
 )
 
-
 enum class User {
     A, B, C, D, E
 }
