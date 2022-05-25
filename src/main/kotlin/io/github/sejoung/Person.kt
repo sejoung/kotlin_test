@@ -1,10 +1,6 @@
 package io.github.sejoung
 
-import io.github.sejoung.User.A
-import io.github.sejoung.User.B
-import io.github.sejoung.User.C
-import io.github.sejoung.User.D
-import io.github.sejoung.User.E
+import io.github.sejoung.User.*
 
 data class Person(
     val firstName: String,
@@ -28,4 +24,10 @@ fun main() {
     val p = Person(firstName = "", lastName = "")
 
     println("person = $p person2 = ${p2.a} ${p2.b} ${p2.c} ${p2.d} ${p2.e}")
+
+    val a = null
+
+    a?.let {
+        println("test")
+    }
 }
